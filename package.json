@@ -1,0 +1,14 @@
+{
+    "name": "application-paper-generator",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "yarn workspace cli build && yarn workspace template build",
+        "create-pdf": "node packages/cli/dist/print.js"
+    },
+    "devDependencies": {
+        "typescript": "^3.7.2"
+    }
+}
