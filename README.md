@@ -27,3 +27,10 @@ The shape of the data is specified in `packages/template/src/types/data.ts`.
     ```
 
 1. Merge all necessary files with a tool of your choice. You can see an example with `pdfunite` (provided in the poppler package) in the `combine.sh` file.
+
+## Hint
+There is no method to change the language. The template is for applications in german. For changing the language, you have to adjust it in the source code.
+
+## Screens
+![coverletter](coverletter.png)
+![cv](cv.png)
