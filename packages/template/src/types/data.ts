@@ -50,6 +50,8 @@ export interface ICoverLetterData {
     greeting: string;
     content: string[];
     salutation: string;
+    
+    appendix: string;
 }
 
 export interface ITimelineEntry {

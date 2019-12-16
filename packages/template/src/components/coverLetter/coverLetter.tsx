@@ -105,7 +105,7 @@ export const CoverLetter = ({ coverLetterData, me }: IProps) => (
                 <HR/>
 
                 <Appendix>
-                    <b>Anlagen:</b> Lebenslauf, Zeugnisse, Zertifikate
+                    <b>Anlagen:</b> {coverLetterData.appendix}
                 </Appendix>
             </div>
         </Block>    
